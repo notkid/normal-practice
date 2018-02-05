@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.sizeColor(@size, @color){
+    font-size: @size;
+    color: @color;
+}
+
+.widthHeight(@width, @height) {
+    width: @width;
+    height: @height;
+}
+.topcenter{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.justify(@value:space-between){
+    display: flex;
+    justify-content: @value;
+}
